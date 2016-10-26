@@ -14,9 +14,9 @@ $(document).ready( function(){
 		var password = document.getElementById("password").value;
 		
 		$.ajax({
-			url : "login.html",
-			type : "POST",		
-			data : 'userName='+userName+'&password='+password,
+			url : "dashboard",
+			type : "GET",		
+			/* data : 'userName='+userName+'&password='+password, */
 			/* dataType : 'json', */
 
 			success : function(data) {
@@ -25,7 +25,7 @@ $(document).ready( function(){
  							$('#idsuccess_logout').hide();
  							$('#iderror_login').show();
  						}else {
- 							window.location.href="dashboard.html";  
+ 							window.location.href="dashboard";  
 		    			}
 		    		}
 		});

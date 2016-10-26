@@ -1,12 +1,12 @@
 <div class="logo">
-	<img src="/RMT/images/logo.jpg">
+	<img src="resources/images/mtslogo.jpg">
 </div>
 
 <script type="text/javascript">
 $(document).ready(function(){
 	var userid=$("#userid").val();
 	if(userid==null){
-		window.location.href = "/RMT/Pages/login/login.jsp";
+		/* window.location.href = "/RMT/Pages/login/login.jsp"; */
 	}
 	
 	$("#logout").click(function() {
@@ -50,5 +50,5 @@ $(document).ajaxComplete(function(){
 <input type="hidden" value=${sessionScope.role} id="role">
 <input type="hidden" value=${sessionScope.userid} id="userid">
 <div class="clearfix"></div>
-<img class="loading-image" alt="please wait..." src="/RMT/images/loading.gif" id="wait">
+<img class="loading-image" alt="please wait..." src="resources/images/loading.gif" id="wait">
 

@@ -37,4 +37,10 @@ public class HomeController {
 		return "login/login";
 	}
 	
+	@RequestMapping(value = "dashboard", method = RequestMethod.GET)
+	public String login() {
+		logger.info("Welcome home! The client locale is {}.");
+		return "operator/createuser";
+	}
+	
 }

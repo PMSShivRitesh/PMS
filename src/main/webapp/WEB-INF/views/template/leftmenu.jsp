@@ -64,7 +64,7 @@
 		<li id="1"><a href="dashboard.html"><i class="icon-home"></i>
 		<i class="icon-chevron-right"></i>Home</a></li>
 		
-		<li id="1"><a href="creategatepass.html"><i class="icon-pencil"></i>
+		<!-- <li id="1"><a href="creategatepass.html"><i class="icon-pencil"></i>
 		<i class="icon-chevron-right"></i>Create Gate Pass</a></li>
 		
 		<li id="1"><a href="searchgatepass.html"><i class="icon-search"></i>
@@ -74,7 +74,7 @@
 		<i class="icon-chevron-right"></i>Todays Gate Pass</a></li>
 		
 		<li id="1"><a href="listgatepass.html"><i class="icon-list"></i>
-		<i class="icon-chevron-right"></i>List Gate Pass</a></li>
+		<i class="icon-chevron-right"></i>List Gate Pass</a></li> -->
 		
 	</ul>
 	<input type="hidden" value=${sessionScope.role } id="role">
